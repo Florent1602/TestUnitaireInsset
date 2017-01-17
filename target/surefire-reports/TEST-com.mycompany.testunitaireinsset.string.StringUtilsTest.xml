@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" time="0.367" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.mycompany.testunitaireinsset.string.StringUtilsTest" time="0.041" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_111/jre/lib/amd64"/>
@@ -58,13 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierOK" time="0.01"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKONull" time="0.005"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierNOK" time="0"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKOLimit" time="0.001"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierLimit" time="0.001"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testFormaterResultNOK" time="0"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKO" time="0.001"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideOK" time="0.001"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testFormaterResultOK" time="0"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testIsChaineValideKO" time="0.011"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testCompterOccurences" time="0.007"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testIsPalindromeOK" time="0"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testIsPalindromeNOK" time="0"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testInverse" time="0"/>
+  <testcase classname="com.mycompany.testunitaireinsset.string.StringUtilsTest" name="testIsChaineValide" time="0.001"/>
 </testsuite>
